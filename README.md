@@ -21,7 +21,7 @@ The [`Dockerfile`](https://github.com/kerberos-io/openalpr/blob/main/Dockerfile)
 
 ## Base image
 
-The [`Dockerfile`](https://github.com/kerberos-io/openalpr/blob/main/Dockerfile) in this project inherits from the `kerberos/openalpr-base:latest` base image. This image is a build of [the original OpenALPR Dockerfile](https://github.com/openalpr/openalpr/blob/master/Dockerfile), which you can find [in the original GitHub repository](https://github.com/openalpr/openalpr).
+The [`Dockerfile`](https://github.com/kerberos-io/openalpr/blob/main/Dockerfile) in this project inherits from the `kerberos/openalpr-base:latest` base image. This image is a build on top of a customised [OpenALPR Dockerfile](https://github.com/kerberos-io/openalpr-base/blob/main/Dockerfile), which you can find [in our forked GitHub repository](https://github.com/kerberos-io/openalpr-base).
 
 ## How to run?
 
