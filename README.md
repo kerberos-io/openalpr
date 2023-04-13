@@ -65,6 +65,12 @@ With following output image
 
     Failed to find license plate (I assume to much in perspective).
 
+![A input car](./car8.png)
+![A input car](./car8_out.png)
+
+    {EpochTime:1681386430566 ImgWidth:0 ImgHeight:451 TotalProcessingTimeMs:54.099583 Plates:[{RequestedTopN:20 BestPlate:7O4956O1 TopNPlates:[{Characters:7O4956O1 OverallConfidence:94.35298 MatchesTemplate:false} {Characters:7O495601 OverallConfidence:92.170296 MatchesTemplate:false} {Characters:704956O1 OverallConfidence:91.98635 MatchesTemplate:false} {Characters:7O495GO1 OverallConfidence:91.105385 MatchesTemplate:false} {Characters:7O4956Q1 OverallConfidence:89.20698 MatchesTemplate:false} {Characters:7O4956D1 OverallConfidence:89.06156 MatchesTemplate:false} {Characters:7Q4956O1 OverallConfidence:89.1066 MatchesTemplate:false} {Characters:7D4956O1 OverallConfidence:89.08189 MatchesTemplate:false} {Characters:7O495SO1 OverallConfidence:87.61931 MatchesTemplate:false} {Characters:7O495BO1 OverallConfidence:86.968185 MatchesTemplate:false} {Characters:7O4956G1 OverallConfidence:87.320145 MatchesTemplate:false} {Characters:7G4956O1 OverallConfidence:86.15845 MatchesTemplate:false} {Characters:7O495G01 OverallConfidence:85.182625 MatchesTemplate:false} {Characters:70495GO1 OverallConfidence:84.99867 MatchesTemplate:false} {Characters:70495601 OverallConfidence:89.80367 MatchesTemplate:false} {Characters:7Q495601 OverallConfidence:86.92391 MatchesTemplate:false} {Characters:7D495601 OverallConfidence:86.899216 MatchesTemplate:false} {Characters:7O4S56O1 OverallConfidence:85.90428 MatchesTemplate:false} {Characters:704956Q1 OverallConfidence:86.84035 MatchesTemplate:false} {Characters:704956D1 OverallConfidence:86.69493 MatchesTemplate:false}] ProcessingTimeMs:16.126793 PlatePoints:[{X:250 Y:286} {X:408 Y:288} {X:408 Y:323} {X:250 Y:322}] PlateIndex:0 RegionConfidence:0 Region:}] RegionsOfInterest:[{X:0 Y:0 Width:667 Height:451}]}
+    License Plate: 7O4956O1
+
 ![A input car](./car5.png)
 
     Failed to find license plate (I assume to much in perspective).

@@ -21,7 +21,7 @@ func main() {
 	}
 	alpr.SetTopN(20)
 
-	fileWithLicensePlate := "./car6.png"
+	fileWithLicensePlate := "./car8.png"
 	imageBytes, err := ioutil.ReadFile(fileWithLicensePlate)
 	if err != nil {
 		fmt.Println(err)
@@ -64,5 +64,5 @@ func main() {
 	gocv.PutText(&mat, plateNumber, image.Pt(x, y-20), gocv.FontHersheyPlain, 2, color.RGBA{0, 255, 0, 0}, 2)
 
 	// Save image to tmp folder
-	gocv.IMWrite("/tmp/car6_out.png", mat)
+	gocv.IMWrite("/tmp/car8_out.png", mat)
 }
