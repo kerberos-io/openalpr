@@ -51,32 +51,32 @@ The results outputted by our Go program will look like this.
 
 With following output image, containing a bounding box for the located license plate and license plate number.
 
-![The results car](./car6_out.png)
+![The results car](./examples/car6_out.png)
 
 ## Few more tests
 
-![A input car](./car.png)
-![A input car](./car_out.png)
+![A input car](./examples/car.png)
+![A input car](./examples/car_out.png)
 
     {EpochTime:1681386039669 ImgWidth:0 ImgHeight:908 TotalProcessingTimeMs:68.74504 Plates:[{RequestedTopN:20 BestPlate:JEI23 TopNPlates:[{Characters:JEI23 OverallConfidence:77.39305 MatchesTemplate:false} {Characters:IJE72 OverallConfidence:77.11269 MatchesTemplate:false} {Characters:JEI23J OverallConfidence:76.524994 MatchesTemplate:false} {Characters:TJE72 OverallConfidence:76.21358 MatchesTemplate:false} {Characters:JE23J OverallConfidence:75.58059 MatchesTemplate:false}] ProcessingTimeMs:10.295 PlatePoints:[{X:468 Y:602} {X:633 Y:601} {X:634 Y:637} {X:469 Y:639}] PlateIndex:0 RegionConfidence:0 Region:}] RegionsOfInterest:[{X:0 Y:0 Width:1060 Height:908}]}
     License Plate: JEI23
 
-![A input car](./car3.png)
+![A input car](./examples/car3.png)
 
     Failed to find license plate (I assume to much in perspective).
 
-![A input car](./car8.png)
-![A input car](./car8_out.png)
+![A input car](./examples/car8.png)
+![A input car](./examples/car8_out.png)
 
     {EpochTime:1681386430566 ImgWidth:0 ImgHeight:451 TotalProcessingTimeMs:54.099583 Plates:[{RequestedTopN:20 BestPlate:7O4956O1 TopNPlates:[{Characters:7O4956O1 OverallConfidence:94.35298 MatchesTemplate:false} {Characters:7O495601 OverallConfidence:92.170296 MatchesTemplate:false} {Characters:704956O1 OverallConfidence:91.98635 MatchesTemplate:false} {Characters:7O495GO1 OverallConfidence:91.105385 MatchesTemplate:false} {Characters:7O4956Q1 OverallConfidence:89.20698 MatchesTemplate:false} {Characters:7O4956D1 OverallConfidence:89.06156 MatchesTemplate:false} {Characters:7Q4956O1 OverallConfidence:89.1066 MatchesTemplate:false} {Characters:7D4956O1 OverallConfidence:89.08189 MatchesTemplate:false} {Characters:7O495SO1 OverallConfidence:87.61931 MatchesTemplate:false} {Characters:7O495BO1 OverallConfidence:86.968185 MatchesTemplate:false} {Characters:7O4956G1 OverallConfidence:87.320145 MatchesTemplate:false} {Characters:7G4956O1 OverallConfidence:86.15845 MatchesTemplate:false} {Characters:7O495G01 OverallConfidence:85.182625 MatchesTemplate:false} {Characters:70495GO1 OverallConfidence:84.99867 MatchesTemplate:false} {Characters:70495601 OverallConfidence:89.80367 MatchesTemplate:false} {Characters:7Q495601 OverallConfidence:86.92391 MatchesTemplate:false} {Characters:7D495601 OverallConfidence:86.899216 MatchesTemplate:false} {Characters:7O4S56O1 OverallConfidence:85.90428 MatchesTemplate:false} {Characters:704956Q1 OverallConfidence:86.84035 MatchesTemplate:false} {Characters:704956D1 OverallConfidence:86.69493 MatchesTemplate:false}] ProcessingTimeMs:16.126793 PlatePoints:[{X:250 Y:286} {X:408 Y:288} {X:408 Y:323} {X:250 Y:322}] PlateIndex:0 RegionConfidence:0 Region:}] RegionsOfInterest:[{X:0 Y:0 Width:667 Height:451}]}
     License Plate: 7O4956O1
 
-![A input car](./car5.png)
+![A input car](./examples/car5.png)
 
     Failed to find license plate (I assume to much in perspective).
 
-![A input car](./car7.jpg)
-![A input car](./car7_out.png)
+![A input car](./examples/car7.jpg)
+![A input car](./examples/car7_out.png)
 
     {EpochTime:1681385904285 ImgWidth:0 ImgHeight:556 TotalProcessingTimeMs:73.58679 Plates:[{RequestedTopN:20 BestPlate:MUIEPSD TopNPlates:[{Characters:MUIEPSD OverallConfidence:87.56559 MatchesTemplate:false} {Characters:MU1EPSD OverallConfidence:82.02317 MatchesTemplate:false} {Characters:HUIEPSD OverallConfidence:81.670334 MatchesTemplate:false} {Characters:UIEPSD OverallConfidence:81.58141 MatchesTemplate:false} {Characters:NUIEPSD OverallConfidence:81.211 MatchesTemplate:false} {Characters:MUIEPS0 OverallConfidence:79.05276 MatchesTemplate:false} {Characters:M0IEPSD OverallConfidence:78.636 MatchesTemplate:false} {Characters:MUIEP5D OverallConfidence:77.83172 MatchesTemplate:false} {Characters:BMUIEPSD OverallConfidence:86.12214 MatchesTemplate:false} {Characters:GMUIEPSD OverallConfidence:85.21181 MatchesTemplate:false} {Characters:MUEPSD OverallConfidence:81.449135 MatchesTemplate:false} {Characters:BHUIEPSD OverallConfidence:80.22688 MatchesTemplate:false} {Characters:BMU1EPSD OverallConfidence:79.378654 MatchesTemplate:false} {Characters:GHUIEPSD OverallConfidence:79.31654 MatchesTemplate:false} {Characters:MDIEPSD OverallConfidence:77.55929 MatchesTemplate:false} {Characters:BNUIEPSD OverallConfidence:79.21253 MatchesTemplate:false} {Characters:MUIEPSQ OverallConfidence:76.94683 MatchesTemplate:false} {Characters:MUIEPSO OverallConfidence:76.89011 MatchesTemplate:false} {Characters:GMU1EPSD OverallConfidence:78.468315 MatchesTemplate:false} {Characters:MUIEFSD OverallConfidence:76.67001 MatchesTemplate:false}] ProcessingTimeMs:14.716875 PlatePoints:[{X:512 Y:319} {X:591 Y:319} {X:591 Y:338} {X:512 Y:338}] PlateIndex:0 RegionConfidence:0 Region:}] RegionsOfInterest:[{X:0 Y:0 Width:990 Height:556}]}
     License Plate: MUIEPSD
