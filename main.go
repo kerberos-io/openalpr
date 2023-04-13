@@ -27,7 +27,7 @@ func main() {
 	fmt.Printf("%+v\n", resultFromFilePath)
 	fmt.Printf("\n\n\n")
 
-	imageBytes, err := ioutil.ReadFile("./car3.png")
+	imageBytes, err := ioutil.ReadFile("./car2.png")
 	if err != nil {
 		fmt.Println(err)
 	}
