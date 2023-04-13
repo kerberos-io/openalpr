@@ -41,7 +41,7 @@ Assuming you have build this repository to a Docker image, you can execute follo
 
 If you made no changes to the `main.go` file in this repository, we will try to locate and read the license plate, of the car shown in `car6.png`.
 
-![A input car](./car6.png)
+![A input car](./examples/car6.png)
 
 The results outputted by our Go program will look like this.
 
