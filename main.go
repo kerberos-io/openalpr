@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 
 	"github.com/openalpr/openalpr/src/bindings/go/openalpr"
+	"gocv.io/x/gocv"
 )
 
 func main() {
@@ -20,17 +21,15 @@ func main() {
 	fmt.Println(alpr.IsLoaded())
 	fmt.Println(openalpr.GetVersion())
 
-	resultFromFilePath, err := alpr.RecognizeByFilePath("./car.png")
-	if err != nil {
-		fmt.Println(err)
-	}
-	fmt.Printf("%+v\n", resultFromFilePath)
-	fmt.Printf("\n\n\n")
-
-	imageBytes, err := ioutil.ReadFile("./car2.png")
+	fileWithLicensePlate := "./car2.png"
+	imageBytes, err := ioutil.ReadFile(fileWithLicensePlate)
 	if err != nil {
 		fmt.Println(err)
 	}
 	resultFromBlob, err := alpr.RecognizeByBlob(imageBytes)
 	fmt.Printf("%+v\n", resultFromBlob)
+
+	// Read image to Mat
+	mat := gocv.IMRead(fileWithLicensePlate, gocv.IMReadColor)
+	fmt.Println(mat)
 }
