@@ -21,7 +21,7 @@ The [`Dockerfile`](https://github.com/kerberos-io/openalpr/blob/main/Dockerfile)
 
 ## Base image
 
-The [`Dockerfile`](https://github.com/kerberos-io/openalpr/blob/main/Dockerfile) in this project inherits from the `kerberos/openalpr-base:latest` base image. This image is a build on top of a customised [OpenALPR Dockerfile](https://github.com/kerberos-io/openalpr-base/blob/master/Dockerfile), which you can find [in our forked GitHub repository](https://github.com/kerberos-io/openalpr-base).
+The [`Dockerfile`](https://github.com/kerberos-io/openalpr/blob/main/Dockerfile) in this project inherits from the `kerberos/openalpr-base:latest` base image. This image is a build on top of a customised [OpenALPR Dockerfile](https://github.com/kerberos-io/openalpr-base/blob/master/Dockerfile), which you can find [in our forked GitHub repository](https://github.com/kerberos-io/openalpr-base). This `Dockerfile` includes the latest OpenCV version, compiled through [ybridgroup/gocv](https://github.com/hybridgroup/gocv).
 
 ## How to run?
 
